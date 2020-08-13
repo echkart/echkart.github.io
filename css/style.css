@@ -338,3 +338,8 @@ footer a:focus {
 }
 
 section + section {margin-top:60px;}
+
+.center {
+  margin: auto;
+  padding: 70px;
+}
