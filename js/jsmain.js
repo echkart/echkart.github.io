@@ -63,11 +63,7 @@ const typewriter = new Typewriter('#typewriter', {
     loop: true
 });
 
-typewriter.typeString('This website is under maintanance')
-    .pauseFor(1000)
-    .deleteChars(20)
-    .typeString('will be live soon.')
+typewriter.typeString('Website will be available soon...')
     .pauseFor(1000)
     .deleteAll()
     .start();
-

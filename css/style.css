@@ -329,15 +329,17 @@ footer a:focus {
 }
 
 #typewriter {
-  position: absolute;
-  font-size: 60px;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+    max-width:100%;
+      margin: auto;
+  text-align: center;
+  font-size: 40px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   font-weight: 700;
   width: 800px;
-  margin: 350px 250px;
+    
 }
-
-section + section {margin-top:60px;}
 
 .center {
   margin: auto;
@@ -351,4 +353,14 @@ h3
       orphans: 3;
     widows: 3;
     page-break-after: avoid;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+     orphans: 3;
+    widows: 3; 
+}
+withicon
+{
+    display: inline;
 }
