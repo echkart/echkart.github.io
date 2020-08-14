@@ -343,3 +343,12 @@ section + section {margin-top:60px;}
   margin: auto;
   padding: 70px;
 }
+
+h3
+{
+    font-size: 1.75rem;
+    font-weight: bold;
+      orphans: 3;
+    widows: 3;
+    page-break-after: avoid;
+}
